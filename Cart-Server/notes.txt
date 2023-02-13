@@ -1,0 +1,63 @@
+             Server Creation Of E-Commerce
+
+    1. Create package.json file - npm init
+
+    2. Crate node modules - install Express - npm i express
+
+    3. Crate index.js -> (Main Entry Point)
+
+    4. In index.js 
+            1. import express
+            2. create an application using express
+            3. setup a port number
+            4. use json parser for server responses
+
+    5. Integration -
+            1. Install cors - npm i cors
+            2. import cors into index.js
+            3. using cors speify the origin to the server
+               origin:'http://localhost:4200'
+
+    6. Service - Create a folder for services and create 2 files
+             1. dataService.js
+             2. db.js
+    
+    7. backend and mongodb connection
+             1. install momgoose - npm i mongoose
+             2. import mongoose into db.js
+             3. Define the connection string
+             4. create a model for the products
+
+    8. resolving API calls in index.js
+             1. import dataService
+             2. create logic in dataService
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
